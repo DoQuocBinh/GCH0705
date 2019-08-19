@@ -5,10 +5,10 @@ create TABLE RegisterCourse(
     dob date,
     gender varchar(10),
     fav varchar(50)
-)
+);
 insert into RegisterCourse(studentname,
 	course,dob,gender,fav) 
 values('phuong','cloud computing','1/1/2019'
-	,'male','sport;books')
+	,'male','sport;books');
 
-select * from RegisterCourse
+select * from RegisterCourse;
